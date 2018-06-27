@@ -29,6 +29,7 @@ public class ProjectLists extends AppCompatActivity implements AdapterView.OnIte
         projectList.add("Anthony");
         projectList.add("Yash");
         projectList.add("Yogin");
+        projectList.add("Shivani");
 
         // TODO: Step 1. Add your name on projectList array
         // Example:
@@ -74,6 +75,7 @@ public class ProjectLists extends AppCompatActivity implements AdapterView.OnIte
                 startActivity(intent1);
                 break;
             case 4:
+                Intent intentShivani = new Intent(this, ListNews.class);
                 // TODO: Step 2. Add your activity screen here.
                 // Example:
 
