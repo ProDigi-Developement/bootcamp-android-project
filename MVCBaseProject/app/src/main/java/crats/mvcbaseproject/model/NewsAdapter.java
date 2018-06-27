@@ -20,9 +20,37 @@ import java.util.ArrayList;
 import crats.mvcbaseproject.R;
 import crats.mvcbaseproject.view.NewsDetail;
 
-public class NewsAdapter {
+public class NewsAdapter extends BaseAdapter {
 
-//    private final Activity context;
-//    private final ArrayList<Movie> movies;
-//    private static LayoutInflater inflater=null;
+    private final Activity context;
+    private final ArrayList<News> news;
+    private static LayoutInflater inflater=null;
+
+    public NewsAdapter(Activity context, ArrayList<News> news) {
+
+        this.context = context;
+        this.news = news;
+        inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+    }
+
+    @Override
+    public int getCount() {
+        return news.size();
+    }
+
+    @Override
+    public Object getItem(int position) {
+        return news.get(position);
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    public class Holder{
+        News news;
+        ImageView imageView;
+        TextView title, time, overview;
+    }
 }
