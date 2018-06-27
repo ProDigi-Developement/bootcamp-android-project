@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "256404679244",
+    "firebase_url": "https://bootcamp-android-project.firebaseio.com",
+    "project_id": "bootcamp-android-project",
+    "storage_bucket": "bootcamp-android-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256404679244:android:14570b8f06d7a632",
+        "android_client_info": {
+          "package_name": "crats.mvcbaseproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256404679244-gck38t08img7qqqvtbdbri3h0opfdr1g.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "256404679244-gck38t08img7qqqvtbdbri3h0opfdr1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqzM8TeNLGdhZkBxV1L4SYxw0ffCZ5Kv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
