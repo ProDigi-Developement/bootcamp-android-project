@@ -29,6 +29,7 @@ public class ProjectLists extends AppCompatActivity implements AdapterView.OnIte
         projectList.add("Anthony");
         projectList.add("Yash");
         projectList.add("Yogin");
+        projectList.add("Prabh");
 
         // TODO: Step 1. Add your name on projectList array
         // Example:
@@ -79,6 +80,10 @@ public class ProjectLists extends AppCompatActivity implements AdapterView.OnIte
 
                 // intent = new Intent(this, <<Your Activity Name>>.class);
                 // startActivity(intent);
+                break;
+            case 5:
+                Intent intent2 = new Intent(this,Users.class);
+                startActivity(intent2);
                 break;
             default:
                 setContentView(R.layout.project_lists);
