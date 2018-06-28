@@ -20,9 +20,9 @@ public class User {
 
 
 
-    public String getFullName() {
-        return this.firstName + " " + this.lastName;
-    }
+    public String getFirstName() { return this.firstName; }
+
+    public String getLastName() { return lastName; }
 
     public String getGender() {
         return this.gender;

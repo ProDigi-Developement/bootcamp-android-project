@@ -74,14 +74,8 @@ public class ProjectLists extends AppCompatActivity implements AdapterView.OnIte
                 Intent intent1 = new Intent(this,SplashScreen.class);
                 startActivity(intent1);
                 break;
-            case 4:
-                // TODO: Step 2. Add your activity screen here.
-                // Example:
 
-                // intent = new Intent(this, <<Your Activity Name>>.class);
-                // startActivity(intent);
-                break;
-            case 5:
+            case 4:
                 Intent intent2 = new Intent(this,Users.class);
                 startActivity(intent2);
                 break;

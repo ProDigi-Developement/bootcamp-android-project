@@ -52,6 +52,7 @@
             android:parentActivityName=".view.MovieListActivity" />
         <activity android:name=".Test" />
         <activity android:name=".view.Users" />
+        <activity android:name=".view.UserDetail"></activity>
     </application>
 
 </manifest>
