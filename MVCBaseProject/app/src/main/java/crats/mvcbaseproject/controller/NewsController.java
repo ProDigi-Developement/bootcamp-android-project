@@ -34,4 +34,14 @@ public class NewsController implements INewsApi {
     private NewsController() {
 
     }
+
+    @Override
+    public void fetchSuccess(ArrayList<News> list) {
+
+    }
+
+    @Override
+    public void fetchFailure(String errorMessage) {
+
+    }
 }

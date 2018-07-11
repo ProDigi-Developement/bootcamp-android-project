@@ -57,7 +57,8 @@
         <activity
             android:name=".view.ListNews"
             android:label="@string/title_activity_list_news"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".view.HNActivity"></activity>
     </application>
 
 </manifest>
