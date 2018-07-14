@@ -3,6 +3,7 @@ package crats.mvcbaseproject.controller;
 import android.app.DownloadManager;
 import android.content.Context;
 import android.util.Log;
+import android.widget.AdapterView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -191,6 +192,9 @@ public class MovieController implements IMovieApi {
 
         return jsonObjectRequest;
     }
+
+
+
 
     @Override
     public void fetchSuccess(ArrayList<Movie> list) {
